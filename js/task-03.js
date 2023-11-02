@@ -16,8 +16,8 @@ const images = [
 const gallery = document.querySelector(".gallery");
 const markup = images
   .map(
-    ({ url, alt }) =>
-      `<li class="js3-item">
+    ({ url, alt }) => 
+     return `<li class="js3-item">
      <img src="${url}" alt="${alt}" class="js3-img">
      </li>`
   )
